@@ -1,0 +1,34 @@
+{
+  "name": "emptymodule",
+  "description": "emptymodule",
+  "version": "0.0.1",
+  "author": "cavas@salviadeveloppement.com",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "del": "latest",
+    "dts-bundle": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-typescript": "latest",
+    "gulp-shell": "latest",
+    "run-sequence": "latest",
+    "merge2": "latest",
+    "mocha": "latest",
+    "gulp": "latest",
+    "typescript": "next",
+    "chai": "^3.5.0",
+    "gulp-mocha": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://vritea.visualstudio.com/_git/EmptyModule"
+  },
+  "main": "./index.js",
+  "typescript": {
+    "definition": "emptymodule.d.ts"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.test.js"
+  }
+}
