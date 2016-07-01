@@ -1,4 +1,4 @@
-const packageName = 'emptymodule';
+const packageName = 'apitest';
 
 var path = require('path');
 var gulp = require('gulp');

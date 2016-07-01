@@ -1,6 +1,6 @@
 {
-  "name": "emptymodule",
-  "description": "emptymodule",
+  "name": "apitest",
+  "description": "apitest",
   "version": "0.0.1",
   "author": "cavas@salviadeveloppement.com",
   "license": "MIT",
@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://vritea.visualstudio.com/_git/EmptyModule"
+    "url": "https://github.com/ccaavvaa/apitest.git"
   },
   "main": "./index.js",
   "typescript": {
-    "definition": "emptymodule.d.ts"
+    "definition": "apitest.d.ts"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha test/*.test.js"
